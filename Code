@@ -1,0 +1,11 @@
+a=input("enter the number: ")
+b=list(a)
+armstrong=0
+for i in b:
+    arm=int(i)**len(b)
+    armstrong+=arm
+print(armstrong)
+if int(a)==armstrong:
+    print("the number is a armstrong number")
+else:
+    print("not a armstrong number")
